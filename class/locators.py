@@ -73,10 +73,10 @@ sleep(2)
 # driver.find_element(By.PARTIAL_LINK_TEXT,"ay").click()
 
 #using css selector
-driver.get("https://www.amazon.in")
-driver.maximize_window()
-sleep(2)
-driver.find_element(By.CSS_SELECTOR, 'input[placeholder="Search Amazon.in"]').send_keys("shoes")
+# driver.get("https://www.amazon.in")
+# driver.maximize_window()
+# sleep(2)
+# driver.find_element(By.CSS_SELECTOR, 'input[placeholder="Search Amazon.in"]').send_keys("shoes")
 
 
 
