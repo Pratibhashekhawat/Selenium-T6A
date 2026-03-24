@@ -17,3 +17,4 @@ driver.implicitly_wait(10)
 links = driver.find_elements(By.XPATH,"//div[@id='nav-xshop']//a")
 for link in links:
     print(link.get_attribute("href"))
+driver.quit()

@@ -20,3 +20,4 @@ list = driver.find_elements(By.XPATH,'//p[@class="sc-1hez2tp-0 sc-MYvYT kZdNOM"]
 for i in list:
     print(i.text)
 list[1].click()
+driver.quit()

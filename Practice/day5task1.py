@@ -17,3 +17,5 @@ links= driver.find_elements(By.TAG_NAME,"img")
 print(links)
 print(len(links))
 links[4].click()
+driver.quit()
+
