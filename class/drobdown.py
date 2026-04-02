@@ -45,9 +45,10 @@ driver.get("https://www.amazon.in")
 driver.maximize_window()
 driver.implicitly_wait(10)
 driver.find_element(By.ID,"twotabsearchtextbox").send_keys("shoes")
-list=driver.find_elements(By.XPATH,'//div[@class="s-suggestion s-suggestion-ellipsis-direction"]')
-for i in list:
-    print(i.text)
-list[1].click()
+# driver.find_element(By.ID,"nav-search-submit-button").click()
+# list=driver.find_elements(By.XPATH,'//div[@class="s-suggestion s-suggestion-ellipsis-direction"]')
+# for i in list:
+#     print(i.text)
+# list[1].click()
 
 
