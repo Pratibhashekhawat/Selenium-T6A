@@ -19,7 +19,7 @@ import os
 driver.get("https://www.amazon.in")
 driver.maximize_window()
 driver.implicitly_wait(10)
-folder=os.path.join(os.getcwd(), "Pictures")
+folder=os.path.join(os.getcwd(), "../Pictures")
 os.makedirs(folder,exist_ok=True)
 driver.find_element(By.ID,"twotabsearchtextbox").send_keys("watches")
 driver.find_element(By.XPATH,"//span[text()=' for women latest']").click()
